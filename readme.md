@@ -11,7 +11,7 @@ import { Fluent } from 'support-fluent'
 
 const obj = Fluent({ name: 'John' })
 
-obj.age(25)
+obj.age(25) // obj.age = 25
 
 obj.name // John
 obj.last = 'Doe'
